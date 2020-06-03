@@ -94,3 +94,50 @@
   width: 30px;
   height: 30px;
 }
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+.ex-7-img{
+  transition: 5s;
+}
+.ex-7-img:hover{
+  filter: grayscale(1);
+}
+@keyframes ex-7-img{
+  0% {filter: grayscale(0.5)}
+25%  {filter: grayscale(1)}
+50%  {filter: sepia(0.2);}
+75%  {filter: sepia(0.5);}
+100% {filter: sepia(1);}
+}
+.ex-8-img{
+  transition: 2s;
+}
+.ex-8-img:hover{
+  filter: grayscale(1);
+  border-radius: 2.5%;
+
+}
+@keyframes ex-8-img{
+  0% {filter: grayscale(0)}
+25%  {filter: grayscale(25%)}
+50%  {filter: grayscale(50%)}
+75%  {filter: grayscale(75%)}
+100% {filter: grayscale(100%)}
+}
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  filter: grayscale(0.5);
+  border-radius: 2.5%;
+  width: 600px;
+
+}
+@keyframes ex-9-img{
+  0% {filter: grayscale(0)}
+25%  {filter: grayscale(25%)}
+50%  {filter: grayscale(50%)}
+75%  {filter: grayscale(75%)}
+100% {filter: grayscale(100%)}
+}
